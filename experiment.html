@@ -46,8 +46,8 @@
                                 <td><span class="js-expt-granularity">Phrase</span></td>
                             </tr>
                             <tr>
-                                <td>Independent Variable 3</td>
-                                <td>???</td>
+                                <td>Degree of Overlap</td>
+                                <td><span class="js-expt-overlap">Overlapping</span></td>
                             </tr>
                             <tr>
                                 <td>Trial</td>
@@ -120,6 +120,7 @@
 
             $(document).ready(function () {
                 $.get('data/experiments.json', function (data) {
+                    data = JSON.parse(data);
                     trialsData = data.experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length;
