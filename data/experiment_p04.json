@@ -51,6 +51,13 @@
         },
         {
             "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "overlap": "overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "transform mechanical energy into AC electrical power"
+        },
+        {
+            "technique": "TRADITIONAL",
             "granularity": "paragraph",
             "overlap": "overlapping",
             "data_file": "data/texts.json",
@@ -63,13 +70,7 @@
             "data_file": "data/texts.json",
             "stimuli": "number of positive charges"
         },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "overlap": "overlapping",
-            "data_file": "data/texts.json",
-            "stimuli": "transform mechanical energy into AC electrical power"
-        },
+
         {
             "technique": "TRADITIONAL",
             "granularity": "sentence",
@@ -93,20 +94,6 @@
         },
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
-            "overlap": "non overlapping",
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "overlap": "non overlapping",
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "overlap": "non overlapping",
             "data_file": "data/texts.json",
@@ -125,6 +112,20 @@
             "overlap": "non overlapping",
             "data_file": "data/texts.json",
             "stimuli": "What is ammeter? A meter used to measure current."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "overlap": "non overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "overlap": "non overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges"
         },
         {
             "technique": "AUTOCOMPASTE",
