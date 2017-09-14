@@ -120,16 +120,59 @@
             }
 
             $(document).ready(function () {
-                $.get('data/experiments.json', function (data) {
-                    // data = JSON.parse(data);
-                    trialsData = data.experiments;
-                    currentTrial = 0;
-                    totalNumberOfTrials = trialsData.length;
-                    $('.js-expt-num-trials').text(totalNumberOfTrials);
-                    trialData.push(headers);
-                    next();
-                    pid = ACPToolKit.getCurrentParticipantId();
-                })
+                switch(ACPToolKit.getCurrentParticipantId()) {
+                    case 'P01':
+                        $.get('data/experiment_p01.json', function (data) {
+                            // data = JSON.parse(data);
+                            trialsData = data.experiments;
+                            currentTrial = 0;
+                            totalNumberOfTrials = trialsData.length;
+                            $('.js-expt-num-trials').text(totalNumberOfTrials);
+                            trialData.push(headers);
+                            next();
+                            pid = ACPToolKit.getCurrentParticipantId();
+                        })
+                        break;
+                    case 'P02':
+                        $.get('data/experiment_p02.json', function (data) {
+                            // data = JSON.parse(data);
+                            trialsData = data.experiments;
+                            currentTrial = 0;
+                            totalNumberOfTrials = trialsData.length;
+                            $('.js-expt-num-trials').text(totalNumberOfTrials);
+                            trialData.push(headers);
+                            next();
+                            pid = ACPToolKit.getCurrentParticipantId();
+                        })
+                        break;
+                    case 'P03':
+                        $.get('data/experiment_p03.json', function (data) {
+                            // data = JSON.parse(data);
+                            trialsData = data.experiments;
+                            currentTrial = 0;
+                            totalNumberOfTrials = trialsData.length;
+                            $('.js-expt-num-trials').text(totalNumberOfTrials);
+                            trialData.push(headers);
+                            next();
+                            pid = ACPToolKit.getCurrentParticipantId();
+                        })
+                        break;
+                    case 'P04':
+                        $.get('data/experiment_p04.json', function (data) {
+                            // data = JSON.parse(data);
+                            trialsData = data.experiments;
+                            currentTrial = 0;
+                            totalNumberOfTrials = trialsData.length;
+                            $('.js-expt-num-trials').text(totalNumberOfTrials);
+                            trialData.push(headers);
+                            next();
+                            pid = ACPToolKit.getCurrentParticipantId();
+                        })
+                        break;
+                    default:
+                        console.log('Invalid participant number!');
+                        alert('Invalid participant number! Please re-enter your participant number in the `Welcome` tab.');
+                }
             });
         </script>
     </body>

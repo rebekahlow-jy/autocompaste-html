@@ -1,0 +1,172 @@
+{
+    "experiments": [
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "overlap": "overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms?"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "overlap": "overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "overlap": "overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "overlap": "overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "transform mechanical energy into AC electrical power"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "overlap": "overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "The region of BJT operation between saturation and cut off used for linear amplification."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "overlap": "overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "What is ammeter? A meter used to measure current."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "overlap": "non overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms?"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "overlap": "non overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "overlap": "non overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "overlap": "non overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "transform mechanical energy into AC electrical power"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "overlap": "non overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "The region of BJT operation between saturation and cut off used for linear amplification."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "overlap": "non overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "What is ammeter? A meter used to measure current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "overlap": "overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms?"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "overlap": "overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "overlap": "overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "overlap": "overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "transform mechanical energy into AC electrical power"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "overlap": "overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "The region of BJT operation between saturation and cut off used for linear amplification."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "overlap": "overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "What is ammeter? A meter used to measure current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "overlap": "non overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms?"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "overlap": "non overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "overlap": "non overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "overlap": "non overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "transform mechanical energy into AC electrical power"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "overlap": "non overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "The region of BJT operation between saturation and cut off used for linear amplification."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "overlap": "non overlapping",
+            "data_file": "data/texts.json",
+            "stimuli": "What is ammeter? A meter used to measure current."
+        }
+    ]
+}

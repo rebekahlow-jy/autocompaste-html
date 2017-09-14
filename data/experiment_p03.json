@@ -1,44 +1,44 @@
 {
     "experiments": [
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "sentence",
-            "overlap": "non overlapping",
+            "overlap": "overlapping",
             "data_file": "data/texts.json",
             "stimuli": "What is acceptor atoms?"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "paragraph",
-            "overlap": "non overlapping",
+            "overlap": "overlapping",
             "data_file": "data/texts.json",
             "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
-            "overlap": "non overlapping",
+            "overlap": "overlapping",
             "data_file": "data/texts.json",
             "stimuli": "number of positive charges"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
-            "overlap": "non overlapping",
+            "overlap": "overlapping",
             "data_file": "data/texts.json",
             "stimuli": "transform mechanical energy into AC electrical power"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "sentence",
-            "overlap": "non overlapping",
+            "overlap": "overlapping",
             "data_file": "data/texts.json",
             "stimuli": "The region of BJT operation between saturation and cut off used for linear amplification."
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "paragraph",
-            "overlap": "non overlapping",
+            "overlap": "overlapping",
             "data_file": "data/texts.json",
             "stimuli": "What is ammeter? A meter used to measure current."
         },
@@ -127,44 +127,44 @@
             "stimuli": "What is ammeter? A meter used to measure current."
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "sentence",
-            "overlap": "overlapping",
+            "overlap": "non overlapping",
             "data_file": "data/texts.json",
             "stimuli": "What is acceptor atoms?"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "paragraph",
-            "overlap": "overlapping",
+            "overlap": "non overlapping",
             "data_file": "data/texts.json",
             "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
-            "overlap": "overlapping",
+            "overlap": "non overlapping",
             "data_file": "data/texts.json",
             "stimuli": "number of positive charges"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
-            "overlap": "overlapping",
+            "overlap": "non overlapping",
             "data_file": "data/texts.json",
             "stimuli": "transform mechanical energy into AC electrical power"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "sentence",
-            "overlap": "overlapping",
+            "overlap": "non overlapping",
             "data_file": "data/texts.json",
             "stimuli": "The region of BJT operation between saturation and cut off used for linear amplification."
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "paragraph",
-            "overlap": "overlapping",
+            "overlap": "non overlapping",
             "data_file": "data/texts.json",
             "stimuli": "What is ammeter? A meter used to measure current."
         }
