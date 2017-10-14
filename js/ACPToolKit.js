@@ -84,7 +84,7 @@ var ACPToolKit = (function () {
 
             $('.js-expt-technique').text(options.technique);
             $('.js-expt-granularity').text(options.granularity);
-            $('.js-expt-overlap').text(options.overlap);
+            $('.js-expt-size').text(options.size);
             $('.js-expt-stimuli').text(options.stimuli);
 
             // Clean up DOM
@@ -105,7 +105,7 @@ var ACPToolKit = (function () {
                     break;
             }
 
-            var iface = new AutoComPaste.Interface(wm, engine, data_file);
+            var iface = new AutoComPaste.Interface(wm, engine, data_file, options.size);
 
             // Highlight the relevant text.
             iface.addEventListener('loaded', function () {

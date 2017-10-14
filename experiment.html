@@ -46,8 +46,8 @@
                                 <td><span class="js-expt-granularity">Phrase</span></td>
                             </tr>
                             <tr>
-                                <td>Degree of Overlap</td>
-                                <td><span class="js-expt-overlap">Overlapping</span></td>
+                                <td>Size</td>
+                                <td><span class="js-expt-size">Small</span></td>
                             </tr>
                             <tr>
                                 <td>Trial</td>
@@ -81,7 +81,7 @@
             var trialsData;
             var currentTrial;
             var totalNumberOfTrials;
-            var headers = ['Participant id', 'Technique', 'Granularity', 'Degree of Overlap',
+            var headers = ['Participant id', 'Technique', 'Granularity', 'Size',
                             'Trial no', 'Stimuli', 'User Response', 'Trial Start Time',
                             'Trial End Time', 'Trial Time', 'Accuracy'];
             var trialData = [];
@@ -93,7 +93,7 @@
 
                     var technique = trialResult.technique;
                     var granularity = trialResult.granularity;
-                    var overlap = trialResult.overlap;
+                    var size = trialResult.size;
                     var trialNum = currentTrial;
                     var stimuli = trialResult.stimuli;
                     var userResponse = trialResult.user_response;
@@ -102,7 +102,7 @@
                     var trialDuration = trialResult.duration;
                     var accuracy = stimuli === userResponse ? 1 : 0;
 
-                    var row = [pid, technique, granularity, overlap, trialNum,
+                    var row = [pid, technique, granularity, size, trialNum,
                                 stimuli, userResponse, trialStartTime,
                                 trialEndTime, trialDuration, accuracy];
                     trialData.push(row);
@@ -123,7 +123,7 @@
                 switch(ACPToolKit.getCurrentParticipantId()) {
                     case 'P01':
                         $.get('data/experiment_p01.json', function (data) {
-                            // data = JSON.parse(data);
+                            data = JSON.parse(data);
                             trialsData = data.experiments;
                             currentTrial = 0;
                             totalNumberOfTrials = trialsData.length;
@@ -135,7 +135,7 @@
                         break;
                     case 'P02':
                         $.get('data/experiment_p02.json', function (data) {
-                            // data = JSON.parse(data);
+                            data = JSON.parse(data);
                             trialsData = data.experiments;
                             currentTrial = 0;
                             totalNumberOfTrials = trialsData.length;
@@ -147,7 +147,7 @@
                         break;
                     case 'P03':
                         $.get('data/experiment_p03.json', function (data) {
-                            // data = JSON.parse(data);
+                            data = JSON.parse(data);
                             trialsData = data.experiments;
                             currentTrial = 0;
                             totalNumberOfTrials = trialsData.length;
@@ -159,7 +159,55 @@
                         break;
                     case 'P04':
                         $.get('data/experiment_p04.json', function (data) {
-                            // data = JSON.parse(data);
+                            data = JSON.parse(data);
+                            trialsData = data.experiments;
+                            currentTrial = 0;
+                            totalNumberOfTrials = trialsData.length;
+                            $('.js-expt-num-trials').text(totalNumberOfTrials);
+                            trialData.push(headers);
+                            next();
+                            pid = ACPToolKit.getCurrentParticipantId();
+                        })
+                        break;
+                    case 'P05':
+                        $.get('data/experiment_p05.json', function (data) {
+                            data = JSON.parse(data);
+                            trialsData = data.experiments;
+                            currentTrial = 0;
+                            totalNumberOfTrials = trialsData.length;
+                            $('.js-expt-num-trials').text(totalNumberOfTrials);
+                            trialData.push(headers);
+                            next();
+                            pid = ACPToolKit.getCurrentParticipantId();
+                        })
+                        break;
+                    case 'P06':
+                        $.get('data/experiment_p06.json', function (data) {
+                            data = JSON.parse(data);
+                            trialsData = data.experiments;
+                            currentTrial = 0;
+                            totalNumberOfTrials = trialsData.length;
+                            $('.js-expt-num-trials').text(totalNumberOfTrials);
+                            trialData.push(headers);
+                            next();
+                            pid = ACPToolKit.getCurrentParticipantId();
+                        })
+                        break;
+                    case 'P07':
+                        $.get('data/experiment_p07.json', function (data) {
+                            data = JSON.parse(data);
+                            trialsData = data.experiments;
+                            currentTrial = 0;
+                            totalNumberOfTrials = trialsData.length;
+                            $('.js-expt-num-trials').text(totalNumberOfTrials);
+                            trialData.push(headers);
+                            next();
+                            pid = ACPToolKit.getCurrentParticipantId();
+                        })
+                        break;
+                    case 'P08':
+                        $.get('data/experiment_p08.json', function (data) {
+                            data = JSON.parse(data);
                             trialsData = data.experiments;
                             currentTrial = 0;
                             totalNumberOfTrials = trialsData.length;
